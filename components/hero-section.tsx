@@ -130,7 +130,7 @@ export function HeroSection({ onStartBuilding }: HeroSectionProps) {
       {floatingIcons.map(({ Icon, delay, x, y }, i) => (
         <div
           key={i}
-          className={`absolute transition-all duration-1000 ${isVisible ? "opacity-100" : "opacity-0"}`}
+          className={`absolute hidden md:block transition-all duration-1000 ${isVisible ? "opacity-100" : "opacity-0"}`}
           style={{
             left: `${x}%`,
             top: `${y}%`,

@@ -5,7 +5,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet"
-import { Menu, BookOpen, Info, Mail, Keyboard } from "lucide-react"
+import { Menu, BookOpen, Info, Mail, Keyboard, Globe } from "lucide-react"
 import { KeyboardShortcutsDialog } from "./keyboard-shortcuts"
 
 export function Navbar() {
